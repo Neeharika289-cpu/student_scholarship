@@ -1,4 +1,4 @@
-
+// Trigger a fresh Vercel deployment
 const supabaseClient = window.supabase.createClient(
 "https://dflpqdnozwcrywnqfxyi.supabase.co",
 "sb_publishable_RVYHFwCSR4998L5DuMQNQA_i-hqcbsb"
