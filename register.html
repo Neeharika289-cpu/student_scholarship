@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Register | ScholarConnect</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header class="navbar"><a class="logo" href="index.html">🎓 ScholarConnect</a><nav><a href="index.html">Home</a><a href="scholarships.html">Scholarships</a><a href="eligibility.html">Eligibility</a><a href="login.html">Login</a><a class="nav-btn active-btn" href="register.html">Register</a></nav></header>
+<main class="auth-page">
+<div class="auth-card wide">
+<h1>Create Student Account</h1><p>Enter your basic details to create a demo account.</p>
+<form id="registerForm">
+<div class="form-grid">
+<label>Full Name<input id="rName" type="text" required></label>
+<label>Email<input id="rEmail" type="email" required></label>
+<label>Password<input id="rPassword" type="password" minlength="6" required></label>
+<label>Course<select id="rCourse" required><option value="">Select</option><option>B.Tech</option><option>BCA</option><option>B.Sc</option><option>MCA</option></select></label>
+<label>Year<select id="rYear"><option>1st Year</option><option>2nd Year</option><option>3rd Year</option><option>4th Year</option></select></label>
+<label>State<select id="rState"><option>Andhra Pradesh</option><option>Telangana</option><option>Other</option></select></label>
+</div>
+<button class="btn primary full" type="submit">Create Account</button>
+</form>
+<div id="registerMessage"></div>
+<p class="auth-link">Already registered? <a href="login.html">Login</a></p>
+</div></main>
+<footer><div><strong>🎓 ScholarConnect</strong><p>Academic project prototype</p></div><div><p>© 2026 ScholarConnect</p></div></footer>
+<script src="js/script.js"></script>
+</body></html>

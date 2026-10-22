@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Student Dashboard | ScholarConnect</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header class="navbar"><a class="logo" href="index.html">🎓 ScholarConnect</a><nav><a href="index.html">Home</a><a href="scholarships.html">Scholarships</a><a href="eligibility.html">Eligibility</a><a class="active" href="dashboard.html">Dashboard</a><a href="#" onclick="logout()">Logout</a></nav></header>
+<main>
+<section class="page-head"><span class="eyebrow">STUDENT AREA</span><h1 id="welcomeName">Student Dashboard</h1><p>Manage your saved scholarship opportunities.</p></section>
+<section class="section"><div class="dashboard-grid">
+<div class="card dash-stat"><span>🔖</span><strong id="savedCount">0</strong><small>Saved Scholarships</small></div>
+<div class="card dash-stat"><span>🎯</span><strong>Smart</strong><small>Eligibility Matching</small></div>
+<div class="card dash-stat"><span>📅</span><strong>Live</strong><small>Deadline Tracking</small></div>
+</div>
+<h2 class="dash-title">Saved Scholarships</h2><div id="savedList" class="scholarship-grid"></div></section>
+</main>
+<footer><div><strong>🎓 ScholarConnect</strong><p>Academic project prototype</p></div><div><p>© 2026 ScholarConnect</p></div></footer>
+<script src="js/data.js"></script><script src="js/script.js"></script>
+</body></html>

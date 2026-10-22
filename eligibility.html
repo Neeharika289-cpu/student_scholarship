@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eligibility Checker | ScholarConnect</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="navbar">
+<a class="logo" href="index.html">🎓 ScholarConnect</a>
+<nav><a href="index.html">Home</a><a href="scholarships.html">Scholarships</a><a class="active" href="eligibility.html">Eligibility</a><a href="login.html">Login</a><a class="nav-btn" href="register.html">Register</a></nav>
+</header>
+<main>
+<section class="page-head"><span class="eyebrow">SMART MATCH</span><h1>Check Your Eligibility</h1><p>Enter your details and we will show scholarships that match your profile.</p></section>
+<section class="section">
+<div class="form-card">
+<form id="eligibilityForm">
+<div class="form-grid">
+<label>Course<select id="eCourse" required><option value="">Select</option><option>B.Tech</option><option>BCA</option><option>B.Sc</option><option>MCA</option></select></label>
+<label>Annual Family Income (₹)<input id="eIncome" type="number" min="0" placeholder="e.g. 300000" required></label>
+<label>Percentage<input id="ePercentage" type="number" min="0" max="100" placeholder="e.g. 82" required></label>
+<label>State<select id="eState" required><option value="">Select</option><option>Andhra Pradesh</option><option>Telangana</option><option>Other</option></select></label>
+</div>
+<button class="btn primary" type="submit">Find Matching Scholarships</button>
+</form>
+<div id="eligibilityResult"></div>
+</div>
+</section>
+</main>
+<footer><div><strong>🎓 ScholarConnect</strong><p>Academic project prototype</p></div><div><p>© 2026 ScholarConnect</p></div></footer>
+<script src="js/data.js"></script><script src="js/script.js"></script>
+</body>
+</html>

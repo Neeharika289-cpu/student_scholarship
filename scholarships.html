@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scholarships | ScholarConnect</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="navbar">
+<a class="logo" href="index.html">🎓 ScholarConnect</a>
+<nav><a href="index.html">Home</a><a class="active" href="scholarships.html">Scholarships</a><a href="eligibility.html">Eligibility</a><a href="login.html">Login</a><a class="nav-btn" href="register.html">Register</a></nav>
+</header>
+
+<main>
+<section class="page-head">
+<span class="eyebrow">OPPORTUNITIES</span>
+<h1>Find Scholarships & Grants</h1>
+<p>Search and filter opportunities according to your needs.</p>
+</section>
+
+<section class="section">
+<div class="filter-box">
+<input id="searchInput" type="text" placeholder="🔍 Search by scholarship name or provider...">
+<select id="courseFilter"><option value="">All Courses</option><option>B.Tech</option><option>BCA</option><option>B.Sc</option><option>MCA</option><option>Any</option></select>
+<select id="stateFilter"><option value="">All States</option><option>Andhra Pradesh</option><option>Telangana</option><option>All India</option></select>
+<select id="categoryFilter"><option value="">All Categories</option><option>Merit</option><option>Need Based</option><option>Women</option><option>Technology</option></select>
+</div>
+<div id="scholarshipCount" class="result-count"></div>
+<div id="scholarshipList" class="scholarship-grid"></div>
+</section>
+</main>
+
+<footer><div><strong>🎓 ScholarConnect</strong><p>Academic project prototype</p></div><div><p>© 2026 ScholarConnect</p></div></footer>
+<script src="js/data.js"></script><script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Admin Dashboard | ScholarConnect</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header class="navbar"><a class="logo" href="index.html">🎓 ScholarConnect</a><nav><a href="index.html">Home</a><a href="scholarships.html">Scholarships</a><a class="active" href="admin.html">Admin</a></nav></header>
+<main>
+<section class="page-head"><span class="eyebrow">ADMIN PANEL</span><h1>Scholarship Management</h1><p>Prototype dashboard for managing portal data.</p></section>
+<section class="section">
+<div class="dashboard-grid">
+<div class="card dash-stat"><span>🎓</span><strong id="adminScholarshipCount">0</strong><small>Total Scholarships</small></div>
+<div class="card dash-stat"><span>👨‍🎓</span><strong>Demo</strong><small>Registered Students</small></div>
+<div class="card dash-stat"><span>📝</span><strong>Demo</strong><small>Applications</small></div>
+</div>
+<div class="table-card"><h2>Scholarship Records</h2><div class="table-wrap"><table><thead><tr><th>Name</th><th>Provider</th><th>Amount</th><th>Deadline</th><th>Category</th></tr></thead><tbody id="adminTable"></tbody></table></div></div>
+</section>
+</main>
+<footer><div><strong>🎓 ScholarConnect</strong><p>Academic project prototype</p></div><div><p>© 2026 ScholarConnect</p></div></footer>
+<script src="js/data.js"></script><script src="js/script.js"></script>
+</body></html>
